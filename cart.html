@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+
+    <section class="cart-container">
+        <div class="cart-item">
+            <div class="item-info">
+                <img src="home1.jpg" alt="Dress Image">
+                <div class="details">
+                    <p>Size: M</p>
+                </div>
+            </div>
+            <div class="item-actions">
+                <input type="number" value="1" min="1" class="quantity">
+                <p class="price">800.00</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <div class="item-info">
+                <img src="home2.jpg" alt="Dress Image">
+                <div class="details">
+                    <p>Size: S</p>
+                </div>
+            </div>
+            <div class="item-actions">
+                <input type="number" value="2" min="1" class="quantity">
+                <p class="price">1000.00</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Total: 1800.00</h2>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+</body>
+</html>

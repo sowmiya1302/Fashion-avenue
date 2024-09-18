@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(177, 150, 118);
+}
+
+body.no-background {
+    background-color: transparent;
+}
+
+.box1 {
+    border: 4px solid black;
+    background-color: black;
+    height: 40px;
+}
+
+ul {
+    float: left;
+    color: white;
+}
+
+ul li {
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 300%;
+    width: 100px;
+    font-size: 14px;
+    font-family: 'barlow condensed', sans-serif;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.box1 h1 {
+    margin-top: 1px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: 'barlow condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.subbox {
+    border: 2px solid transparent;
+    background-color: #c7c1b7;
+    height: 60px;
+}
+
+.subbox ol {
+    display: flex;
+}
+
+.subbox ol li {
+    padding-right: 3%;
+    font-family: 'barlow condensed', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.subbox ol li a {
+    text-decoration: left;
+    color: black;
+    text-decoration: none;
+}
+
+.subbox ol li a:hover {
+    border-bottom: 2px solid rgb(214, 60, 93);
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.fa-search {
+    position: fixed;
+    left: 85.5%;
+    top: 10%;
+    color: black;
+}
+
+.fa-user {
+    position: fixed;
+    right: 206px;
+    top: 10%;
+    color: black;
+}
+
+.fa-shopping-cart {
+    position: fixed;
+    left: 88%;
+    top: 10.3%;
+    color: black;
+    font-size: 20px;
+    margin-top: -2px;
+    background-color: rgb(197, 178, 8);
+    margin-top: -3px;
+    margin-left: -4px;
+    text-align: left;
+}
+
+.option {
+    color: rgb(202, 74, 34);
+    position: fixed;
+    left: 88.8%;
+    top: 7.5%;
+    width: 10px;
+    height: -40px;
+    border-radius: 90px;
+}
+
+h4 {
+    position: relative;
+    left: -100.8%;
+    text-transform: uppercase;
+    font-family: barlow condensed, sans-serif;
+    margin-top: 4px;
+    font-weight: bolder;
+}
+
+font {
+    color: red;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    transform: translate(-17%, -17%);
+    text-align: center;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+}
+
+form input[type="submit"] {
+    position: absolute;
+    top: 86%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: rgb(245, 18, 63);
+    border: none;
+    color: white;
+    font-family: barlow condensed, sans-serif;
+    letter-spacing: 1px;
+    left: 10%;
+}
+
+form input[type="submit"]:hover {
+    background-color: red;
+}
+
+.image13:hover {
+    box-shadow: 1px 3px 9px;
+    
+}
+
+.image13 {
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+  
+}
+.image14 {
+
+img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+}
+h6 {
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed, sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.image14:hover {
+    box-shadow: 1px 3px 9px;
+}
+
+.image14 {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    border: 1px solid darkgray;
+    box-shadow: 1px 2px 4px;
+}
+
+.image14.h6 {
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed, sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.image15:hover {
+    box-shadow: 1px 3px 9px;
+}
+
+.image15 {
+    position: absolute;
+    left: 70%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+}
+
+.image15.h6 {
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 25;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed, sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Main Content Styles */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-about,
+.section-mission,
+.section-team,
+.section-values {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/* Title Style */
+.section-about title {
+    font-size: 32px;
+    color: #e91e63;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Mission Section Style */
+.section-mission {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+/* Team Section Style */
+.section-team {
+    background: linear-gradient(to right, #e9ecef, #f8f9fa);
+}
+
+/* Values Section Style */
+.section-values ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-values ul li {
+    background: #e7e7e7;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-values ul li strong {
+    color: #e91e63;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-content ul li a:hover {
+    color: #e91e63;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebeb;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.cart-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #bdb358;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.item-info img {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.details p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 50px;
+    padding: 5px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #ff3333;
+}
+
+.cart-summary {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.cart-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.checkout-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
