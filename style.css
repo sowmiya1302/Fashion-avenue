@@ -186,9 +186,7 @@ form input[type="submit"]:hover {
 }
 .image14 {
 
-img {
-    opacity: 0.5;
-  }
+
   
   img:hover {
     opacity: 1.0;
